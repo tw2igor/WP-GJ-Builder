@@ -1,0 +1,41 @@
+.wpb-block--testimonial-spotlight {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--accent-4, #f5f5f5 );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-testimonial-spotlight__quote {
+	font-size: clamp( 1.25rem, 3vw, 1.75rem );
+	font-style: italic;
+	line-height: 1.5;
+	max-width: 720px;
+	margin: 0 auto 2rem;
+}
+.wpb-testimonial-spotlight__author {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.85rem;
+}
+.wpb-testimonial-spotlight__photo {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	object-fit: cover;
+	background-color: var( --wp--preset--color--base, #fff );
+}
+.wpb-testimonial-spotlight__photo:not( [src] ) {
+	display: none;
+}
+.wpb-testimonial-spotlight__author-text {
+	text-align: left;
+}
+.wpb-testimonial-spotlight__name {
+	font-weight: 600;
+	margin: 0;
+}
+.wpb-testimonial-spotlight__role {
+	font-size: 0.85rem;
+	opacity: 0.7;
+	margin: 0;
+}

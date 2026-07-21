@@ -1,0 +1,23 @@
+{
+    "block_id": "test-faq",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-faq",
+        "attributes": {
+            "class": "wpb-block wpb-block--faq",
+            "data-wpb-block": "test-faq",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"question\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 question\",\"answer\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 answer<\\/p>\"},{\"question\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 question\",\"answer\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 answer<\\/p>\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-faq__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-faq__list\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-faq__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<button type=\"button\" class=\"wpb-faq__question\" data-slot=\"question\" aria-expanded=\"false\">Пример question</button>\n\t\t\t<div class=\"wpb-faq__answer\" data-slot=\"answer\" data-slot-richtext=\"1\" hidden><p>Пример answer</p></div>\n\t\t</div><div class=\"wpb-faq__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<button type=\"button\" class=\"wpb-faq__question\" data-slot=\"question\" aria-expanded=\"false\">Пример question</button>\n\t\t\t<div class=\"wpb-faq__answer\" data-slot=\"answer\" data-slot-richtext=\"1\" hidden><p>Пример answer</p></div>\n\t\t</div></div>\n"
+    }
+}

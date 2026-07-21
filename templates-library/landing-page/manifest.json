@@ -1,0 +1,9 @@
+{
+	"title": "Целевая страница",
+	"blocks": [
+		{ "block_id": "hero-split", "slots": { "title": "Заголовок целевой страницы" } },
+		{ "block_id": "services-grid", "slots": {} },
+		{ "block_id": "cta-banner", "slots": { "title": "Готовы начать?" } },
+		{ "block_id": "footer-simple", "slots": {} }
+	]
+}

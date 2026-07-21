@@ -1,0 +1,39 @@
+{
+    "block_id": "test-contacts",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "address",
+            "type": "string"
+        },
+        {
+            "key": "phone",
+            "type": "string"
+        },
+        {
+            "key": "email",
+            "type": "string"
+        },
+        {
+            "key": "cta_label",
+            "type": "string"
+        },
+        {
+            "key": "cta_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "test-contacts",
+        "attributes": {
+            "class": "wpb-block wpb-block--contacts",
+            "data-wpb-block": "test-contacts",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"address\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 address\",\"phone\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 phone\",\"email\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 email\",\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-contacts__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-contacts__address\" data-slot=\"address\">Пример address</p>\n\t<p class=\"wpb-contacts__phone\" data-slot=\"phone\">Пример phone</p>\n\t<p class=\"wpb-contacts__email\" data-slot=\"email\">Пример email</p>\n\t<a href=\"#snapshot-link\" class=\"wpb-contacts__cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "block_id": "test-features",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "subtitle",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-features",
+        "attributes": {
+            "class": "wpb-block wpb-block--features",
+            "data-wpb-block": "test-features",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"subtitle\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 subtitle\",\"items\":[{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"},{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-features__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-features__subtitle\" data-slot=\"subtitle\">Пример subtitle</p>\n\t<div class=\"wpb-features__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-features__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-features__icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t<h3 class=\"wpb-features__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-features__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</div><div class=\"wpb-features__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-features__icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t<h3 class=\"wpb-features__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-features__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</div></div>\n"
+    }
+}

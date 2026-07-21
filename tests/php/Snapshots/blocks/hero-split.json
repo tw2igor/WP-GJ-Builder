@@ -1,0 +1,35 @@
+{
+    "block_id": "hero-split",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "subtitle",
+            "type": "string"
+        },
+        {
+            "key": "cta_label",
+            "type": "string"
+        },
+        {
+            "key": "cta_link",
+            "type": "link"
+        },
+        {
+            "key": "image",
+            "type": "image"
+        }
+    ],
+    "rendered": {
+        "type": "hero-split",
+        "attributes": {
+            "class": "wpb-block wpb-block--hero-split",
+            "data-wpb-block": "hero-split",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"subtitle\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 subtitle\",\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\",\"image\":\"0\"}"
+        },
+        "components": "\n\t<div class=\"wpb-hero-split__content\">\n\t\t<h1 class=\"wpb-hero-split__title\" data-slot=\"title\">Пример title</h1>\n\t\t<p class=\"wpb-hero-split__subtitle\" data-slot=\"subtitle\">Пример subtitle</p>\n\t\t<a href=\"#snapshot-link\" class=\"wpb-hero-split__cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n\t</div>\n\t<div class=\"wpb-hero-split__media\">\n\t\t<img class=\"wpb-hero-split__image\" alt=\"\" data-slot=\"image\" data-slot-img-id=\"0\">\n\t</div>\n"
+    }
+}

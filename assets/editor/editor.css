@@ -1,0 +1,351 @@
+:root {
+	--gjs-primary-color: #1e1e1e;
+	--gjs-secondary-color: #f0f0f1;
+	--gjs-tertiary-color: #2271b1;
+	--gjs-quaternary-color: #2271b1;
+	--gjs-font-color: #f0f0f1;
+	--gjs-font-color-active: #ffffff;
+	--gjs-color-blue: #2271b1;
+	--gjs-color-highlight: #2271b1;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+.wpgjb-status-strip button:focus-visible,
+.wpgjb-status-strip a:focus-visible,
+.wpgjb-lock-banner button:focus-visible,
+.wpgjb-left-panel button:focus-visible,
+.wpgjb-right-panel button:focus-visible,
+.wpgjb-field input:focus-visible,
+.wpgjb-field textarea:focus-visible,
+.wpgjb-image-field button:focus-visible,
+.wpgjb-array-item button:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+#wpadminbar,
+#adminmenumain,
+#wpfooter,
+#screen-meta-links,
+.notice {
+	display: none !important;
+}
+html.wp-toolbar {
+	padding-top: 0 !important;
+}
+#wpcontent,
+#wpbody-content {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#wpbody-content .wpgjb-editor-root {
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	background: #fff;
+}
+
+.wpgjb-editor-root,
+.wpgjb-editor-root * {
+	box-sizing: border-box;
+}
+
+.wpgjb-shell {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 13px;
+	color: #1e1e1e;
+}
+
+.wpgjb-status-strip {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	height: 36px;
+	padding: 0 12px;
+	background: #1e1e1e;
+	color: #fff;
+	flex: 0 0 auto;
+}
+.wpgjb-status-strip__back {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.85;
+}
+.wpgjb-status-strip__title {
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.wpgjb-status-strip__preview {
+	margin-left: auto;
+	color: #fff;
+	opacity: 0.85;
+	text-decoration: none;
+}
+.wpgjb-save-indicator {
+	font-size: 12px;
+	opacity: 0.8;
+	white-space: nowrap;
+}
+.wpgjb-save-indicator--error {
+	color: #ffb4b4;
+}
+.wpgjb-lang-switch {
+	margin-left: 8px;
+	padding: 3px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	border-radius: 3px;
+	background: transparent;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+.wpgjb-lang-switch:hover {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+.wpgjb-workspace {
+	display: flex;
+	flex: 1 1 auto;
+	min-height: 0;
+}
+#wpgjb-gjs-root {
+	flex: 1 1 auto;
+	min-width: 0;
+	/* GrapesJS's own `.gjs-cv-canvas` reserves `calc(100% - var(--gjs-left-width))`
+	   for a left-docked Blocks/Layers panel (default 15%) — that panel lives in
+	   our own `.wpgjb-left-panel` sibling instead (appendTo), so nothing actually
+	   occupies that reserved strip inside #wpgjb-gjs-root; zero it out so the
+	   canvas truly fills all space the surrounding panels don't take. */
+	--gjs-left-width: 0%;
+}
+
+.wpgjb-left-panel,
+.wpgjb-right-panel {
+	flex: 0 0 clamp(280px, 20vw, 460px);
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+	background: #1e1e1e;
+}
+.wpgjb-left-panel {
+	border-right: 1px solid #3c3c3c;
+}
+.wpgjb-right-panel {
+	border-left: 1px solid #3c3c3c;
+}
+
+.wpgjb-panel-tabs {
+	display: flex;
+	flex: 0 0 auto;
+	border-bottom: 1px solid #3c3c3c;
+}
+.wpgjb-panel-tabs button {
+	flex: 1 1 auto;
+	padding: 10px 6px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid transparent;
+	color: #b8b8b8;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 600;
+}
+.wpgjb-panel-tabs button.active {
+	color: #fff;
+	border-bottom-color: #2271b1;
+}
+.wpgjb-panel-tabs button:hover {
+	color: #fff;
+}
+
+.wpgjb-panel-body {
+	flex: 1 1 auto;
+	overflow-y: auto;
+}
+
+.wpgjb-left-panel .gjs-block {
+	width: auto;
+	min-height: 0;
+	padding: 10px 12px;
+	margin: 6px 10px;
+	border: 1px solid #3c3c3c;
+	border-radius: 4px;
+	background: #2c2c2c;
+	text-align: left;
+	color: #f0f0f1;
+}
+.wpgjb-left-panel .gjs-block:hover {
+	border-color: #2271b1;
+}
+.wpgjb-left-panel .gjs-block-label strong {
+	display: block;
+	font-size: 12px;
+	color: #f0f0f1;
+}
+.wpgjb-left-panel .gjs-block-label span {
+	display: block;
+	font-size: 11px;
+	color: #b8b8b8;
+	margin-top: 2px;
+}
+.wpgjb-left-panel .gjs-block-category .gjs-title {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.wpgjb-blocks-panel--grid .gjs-blocks-c {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 8px;
+	padding: 0 6px;
+}
+.wpgjb-blocks-panel--grid .gjs-block {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	height: 84px;
+	padding: 8px;
+	text-align: center;
+}
+.wpgjb-blocks-panel--grid .gjs-block__media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wpgjb-blocks-panel--grid .gjs-block-label {
+	font-size: 11px;
+}
+.wpgjb-blocks-panel--grid .gjs-block-label strong,
+.wpgjb-blocks-panel--grid .gjs-block-label span {
+	display: none;
+}
+
+.wpgjb-button {
+	display: inline-block;
+	padding: 6px 14px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 13px;
+}
+.wpgjb-button--primary {
+	background: #2271b1;
+	color: #fff;
+}
+.wpgjb-button--ghost {
+	background: transparent;
+	border-color: #949494;
+	color: inherit;
+}
+
+.wpgjb-lock-banner {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 16px;
+	background: #fef1cd;
+	color: #6b4e00;
+	border-bottom: 1px solid #e0c060;
+}
+.wpgjb-lock-banner--takeover,
+.wpgjb-lock-banner--error {
+	background: #fbeaea;
+	color: #8a1f11;
+	border-color: #e0a0a0;
+}
+.wpgjb-lock-banner--info {
+	background: #e7f3e7;
+	color: #1d5c1d;
+	border-color: #b7dcb7;
+}
+.wpgjb-lock-banner .wpgjb-button--primary {
+	background: #2271b1;
+	color: #fff;
+}
+.wpgjb-lock-banner .wpgjb-button--ghost {
+	background: transparent;
+	border-color: #8a6d00;
+	color: inherit;
+}
+
+.wpgjb-field {
+	margin-bottom: 14px;
+}
+.wpgjb-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #555;
+}
+.wpgjb-field input,
+.wpgjb-field textarea {
+	width: 100%;
+	padding: 6px 8px;
+	border: 1px solid #949494;
+	border-radius: 3px;
+	font-size: 13px;
+}
+.wpgjb-field textarea {
+	min-height: 70px;
+}
+.wpgjb-field__code {
+	font-family: Consolas, Menlo, monospace;
+	min-height: 120px;
+	background: #1e1e1e;
+	color: #d4d4d4;
+}
+
+.wpgjb-image-field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.wpgjb-image-field__preview {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	border-radius: 4px;
+	border: 1px solid #dcdcde;
+}
+
+.wpgjb-array-item {
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.wpgjb-array-item__remove {
+	margin-top: 4px;
+}
+
+.wpgjb-tlb-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.wpgjb-tlb-icon--up::before { content: '\2191'; }
+.wpgjb-tlb-icon--down::before { content: '\2193'; }
+.wpgjb-tlb-icon--clone::before { content: '\29C9'; }
+.wpgjb-tlb-icon--hide::before { content: '\1F441'; }
+.wpgjb-tlb-icon--delete::before { content: '\2715'; }

@@ -1,0 +1,25 @@
+{
+  "id": "timeline",
+  "schema_version": 1,
+  "section_type": "steps",
+  "tags": ["landing", "steps", "timeline", "process"],
+  "purpose": "Вертикальная временная шкала процесса или истории компании — вариант этапов работы с явной хронологией (в отличие от горизонтальной сетки шагов).",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 2,
+      "max_items": 6,
+      "item_schema": {
+        "date": { "type": "string", "max_length": 30 },
+        "title": { "type": "string", "max_length": 60 },
+        "text": { "type": "string", "max_length": 150 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["about"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

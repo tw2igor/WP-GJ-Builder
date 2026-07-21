@@ -1,0 +1,16 @@
+{
+  "id": "newsletter-signup",
+  "schema_version": 1,
+  "section_type": "misc",
+  "tags": ["landing", "newsletter", "subscribe", "form"],
+  "purpose": "Подписка на рассылку: заголовок, пояснение и поле email с кнопкой — визуальная форма (без обработки отправки на этом этапе).",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    { "key": "text", "type": "string", "max_length": 150 },
+    { "key": "button_label", "type": "string", "max_length": 25 }
+  ],
+  "context": { "recommended_after": ["faq", "cta"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

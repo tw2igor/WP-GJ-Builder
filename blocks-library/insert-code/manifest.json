@@ -1,0 +1,14 @@
+{
+  "id": "insert-code",
+  "schema_version": 1,
+  "section_type": "misc",
+  "tags": ["advanced"],
+  "purpose": "Вставка произвольного HTML/JS-кода (виджеты, счётчики, кастомные скрипты) — доступно только пользователям с правом «Вставка кода» (раздел 10 спеки). Каждое сохранение фиксируется в аудит-журнале.",
+  "slots": [
+    { "key": "code", "type": "raw_html", "required": true }
+  ],
+  "context": { "recommended_after": [], "allow_repeat": true, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": [],
+  "layout_variants": ["default"]
+}

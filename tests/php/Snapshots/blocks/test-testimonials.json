@@ -1,0 +1,23 @@
+{
+    "block_id": "test-testimonials",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-testimonials",
+        "attributes": {
+            "class": "wpb-block wpb-block--testimonials",
+            "data-wpb-block": "test-testimonials",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"photo\":\"0\",\"quote\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 quote<\\/p>\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\",\"role\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 role\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-testimonials__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-testimonials__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-testimonials__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-testimonials__photo\" alt=\"\" data-slot=\"photo\" data-slot-img-id=\"0\">\n\t\t\t<blockquote class=\"wpb-testimonials__quote\" data-slot=\"quote\" data-slot-richtext=\"1\"><p>Пример quote</p></blockquote>\n\t\t\t<p class=\"wpb-testimonials__name\" data-slot=\"name\">Пример name</p>\n\t\t\t<p class=\"wpb-testimonials__role\" data-slot=\"role\">Пример role</p>\n\t\t</div></div>\n"
+    }
+}

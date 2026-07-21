@@ -1,0 +1,24 @@
+{
+  "id": "stats-counters",
+  "schema_version": 1,
+  "section_type": "stats",
+  "tags": ["landing", "stats", "numbers", "social-proof"],
+  "purpose": "Цифры и факты: ряд крупных чисел с подписью — количество клиентов, лет на рынке, выполненных проектов и т.п.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 2,
+      "max_items": 5,
+      "item_schema": {
+        "number": { "type": "string", "max_length": 12 },
+        "label": { "type": "string", "max_length": 60 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["about", "services"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

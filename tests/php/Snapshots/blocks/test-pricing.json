@@ -1,0 +1,23 @@
+{
+    "block_id": "test-pricing",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "plans",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-pricing",
+        "attributes": {
+            "class": "wpb-block wpb-block--pricing",
+            "data-wpb-block": "test-pricing",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"plans\":[{\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\",\"price\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 price\",\"features\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 features<\\/p>\",\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-pricing__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-pricing__grid\" data-slot-repeat=\"plans\" data-gjs-droppable=\"false\"><div class=\"wpb-pricing__plan\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<h3 class=\"wpb-pricing__plan-name\" data-slot=\"name\">Пример name</h3>\n\t\t\t<p class=\"wpb-pricing__plan-price\" data-slot=\"price\">Пример price</p>\n\t\t\t<div class=\"wpb-pricing__plan-features\" data-slot=\"features\" data-slot-richtext=\"1\"><p>Пример features</p></div>\n\t\t\t<a href=\"#snapshot-link\" class=\"wpb-pricing__plan-cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n\t\t</div></div>\n"
+    }
+}

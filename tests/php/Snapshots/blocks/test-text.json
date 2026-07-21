@@ -1,0 +1,23 @@
+{
+    "block_id": "test-text",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "body",
+            "type": "richtext"
+        }
+    ],
+    "rendered": {
+        "type": "test-text",
+        "attributes": {
+            "class": "wpb-block wpb-block--text",
+            "data-wpb-block": "test-text",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"body\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 body<\\/p>\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-text__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-text__body\" data-slot=\"body\" data-slot-richtext=\"1\"><p>Пример body</p></div>\n"
+    }
+}

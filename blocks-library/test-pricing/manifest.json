@@ -1,0 +1,27 @@
+{
+  "id": "test-pricing",
+  "schema_version": 1,
+  "section_type": "pricing",
+  "tags": ["landing"],
+  "purpose": "Таблица тарифов: название плана, цена, список возможностей и кнопка — для страницы с ценами.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "plans",
+      "type": "array",
+      "min_items": 1,
+      "max_items": 4,
+      "item_schema": {
+        "name": { "type": "string", "max_length": 30 },
+        "price": { "type": "string", "max_length": 20 },
+        "features": { "type": "richtext", "max_length": 300 },
+        "cta_label": { "type": "string", "max_length": 25 },
+        "cta_link": { "type": "link" }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["features"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

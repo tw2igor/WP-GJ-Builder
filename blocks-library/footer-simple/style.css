@@ -1,0 +1,43 @@
+.wpb-block--footer-simple {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	padding: 2rem 1.5rem;
+	background-color: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+}
+.wpb-footer-simple__brand {
+	min-width: 180px;
+}
+.wpb-footer-simple__site-name {
+	font-weight: 700;
+	margin: 0 0 0.25rem;
+}
+.wpb-footer-simple__tagline {
+	font-size: 0.85rem;
+	opacity: 0.7;
+	margin: 0;
+}
+.wpb-footer-simple__nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.25rem;
+}
+.wpb-footer-simple__nav-item {
+	display: contents;
+}
+.wpb-footer-simple__nav-link {
+	color: inherit;
+	text-decoration: none;
+	font-size: 0.9rem;
+	opacity: 0.85;
+}
+.wpb-footer-simple__copyright {
+	font-size: 0.8rem;
+	opacity: 0.6;
+	width: 100%;
+	margin: 1rem 0 0;
+	text-align: center;
+}

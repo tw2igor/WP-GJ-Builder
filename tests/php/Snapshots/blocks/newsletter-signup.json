@@ -1,0 +1,27 @@
+{
+    "block_id": "newsletter-signup",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "text",
+            "type": "string"
+        },
+        {
+            "key": "button_label",
+            "type": "string"
+        }
+    ],
+    "rendered": {
+        "type": "newsletter-signup",
+        "attributes": {
+            "class": "wpb-block wpb-block--newsletter-signup",
+            "data-wpb-block": "newsletter-signup",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\",\"button_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 button_label\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-newsletter-signup__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-newsletter-signup__text\" data-slot=\"text\">Пример text</p>\n\t<div class=\"wpb-newsletter-signup__row\">\n\t\t<input type=\"email\" class=\"wpb-newsletter-signup__input\" placeholder=\"Ваш email\" aria-label=\"Email\">\n\t\t<button type=\"button\" class=\"wpb-newsletter-signup__button\" data-slot=\"button_label\">Пример button_label</button>\n\t</div>\n"
+    }
+}

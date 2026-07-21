@@ -1,0 +1,14 @@
+.wpb-block--text {
+	padding: 3rem 1.5rem;
+	max-width: 720px;
+	margin: 0 auto;
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-text__title {
+	font-size: 1.75rem;
+	margin: 0 0 1rem;
+}
+.wpb-text__body {
+	font-size: 1.05rem;
+	line-height: 1.7;
+}

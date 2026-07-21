@@ -1,0 +1,23 @@
+{
+    "block_id": "test-gallery",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-gallery",
+        "attributes": {
+            "class": "wpb-block wpb-block--gallery",
+            "data-wpb-block": "test-gallery",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"image\":\"0\",\"caption\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 caption\"},{\"image\":\"0\",\"caption\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 caption\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-gallery__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-gallery__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><figure class=\"wpb-gallery__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-gallery__image\" alt=\"\" data-slot=\"image\" data-slot-img-id=\"0\">\n\t\t\t<figcaption class=\"wpb-gallery__caption\" data-slot=\"caption\">Пример caption</figcaption>\n\t\t</figure><figure class=\"wpb-gallery__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-gallery__image\" alt=\"\" data-slot=\"image\" data-slot-img-id=\"0\">\n\t\t\t<figcaption class=\"wpb-gallery__caption\" data-slot=\"caption\">Пример caption</figcaption>\n\t\t</figure></div>\n"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "team-compact",
+  "schema_version": 1,
+  "section_type": "team",
+  "tags": ["landing", "team", "compact"],
+  "purpose": "Компактная горизонтальная лента команды — маленькие круглые фото в ряд, без подробных карточек. Для случаев, когда команда большая, а места мало.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "members",
+      "type": "array",
+      "min_items": 3,
+      "max_items": 12,
+      "item_schema": {
+        "photo": { "type": "image" },
+        "name": { "type": "string", "max_length": 40 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["about"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

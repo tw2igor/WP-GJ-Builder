@@ -1,0 +1,53 @@
+.wpb-block--pricing {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-pricing__title {
+	font-size: 2rem;
+	margin: 0 0 2.5rem;
+}
+.wpb-pricing__grid {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 220px, 1fr ) );
+	gap: 1.5rem;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.wpb-pricing__plan {
+	border: 1px solid var( --wp--preset--color--accent-4, #e0e0e0 );
+	border-radius: 8px;
+	padding: 2rem 1.5rem;
+	background-color: var( --wp--preset--color--base, #fff );
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 24px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-pricing__plan:hover {
+	transform: translateY( -4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 16px 32px rgba( 0, 0, 0, 0.1 );
+}
+.wpb-pricing__plan-name {
+	font-size: 1.2rem;
+	margin: 0 0 0.5rem;
+}
+.wpb-pricing__plan-price {
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin: 0 0 1rem;
+}
+.wpb-pricing__plan-features {
+	font-size: 0.9rem;
+	opacity: 0.85;
+	margin: 0 0 1.5rem;
+	text-align: left;
+}
+.wpb-pricing__plan-cta {
+	display: inline-block;
+	padding: 0.65rem 1.5rem;
+	border-radius: 999px;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+	font-weight: 600;
+}

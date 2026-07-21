@@ -1,0 +1,23 @@
+{
+    "block_id": "test-steps",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-steps",
+        "attributes": {
+            "class": "wpb-block wpb-block--steps",
+            "data-wpb-block": "test-steps",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"},{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-steps__title\" data-slot=\"title\">Пример title</h2>\n\t<ol class=\"wpb-steps__list\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><li class=\"wpb-steps__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<h3 class=\"wpb-steps__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-steps__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</li><li class=\"wpb-steps__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<h3 class=\"wpb-steps__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-steps__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</li></ol>\n"
+    }
+}

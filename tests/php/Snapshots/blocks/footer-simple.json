@@ -1,0 +1,31 @@
+{
+    "block_id": "footer-simple",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "site_name",
+            "type": "string"
+        },
+        {
+            "key": "tagline",
+            "type": "string"
+        },
+        {
+            "key": "nav_items",
+            "type": "array"
+        },
+        {
+            "key": "copyright",
+            "type": "string"
+        }
+    ],
+    "rendered": {
+        "type": "footer-simple",
+        "attributes": {
+            "class": "wpb-block wpb-block--footer-simple",
+            "data-wpb-block": "footer-simple",
+            "data-wpb-values": "{\"site_name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 site_name\",\"tagline\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 tagline\",\"nav_items\":[{\"label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 label\",\"link\":\"#snapshot-link\"}],\"copyright\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 copyright\"}"
+        },
+        "components": "\n\t<div class=\"wpb-footer-simple__brand\">\n\t\t<p class=\"wpb-footer-simple__site-name\" data-slot=\"site_name\">Пример site_name</p>\n\t\t<p class=\"wpb-footer-simple__tagline\" data-slot=\"tagline\">Пример tagline</p>\n\t</div>\n\t<nav class=\"wpb-footer-simple__nav\" data-slot-repeat=\"nav_items\" data-gjs-droppable=\"false\"><span class=\"wpb-footer-simple__nav-item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<a href=\"#snapshot-link\" class=\"wpb-footer-simple__nav-link\" data-slot=\"label\" data-slot-href=\"link\">Пример label</a>\n\t\t</span></nav>\n\t<p class=\"wpb-footer-simple__copyright\" data-slot=\"copyright\">Пример copyright</p>\n"
+    }
+}

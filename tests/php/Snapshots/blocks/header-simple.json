@@ -1,0 +1,35 @@
+{
+    "block_id": "header-simple",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "logo",
+            "type": "image"
+        },
+        {
+            "key": "site_name",
+            "type": "string"
+        },
+        {
+            "key": "nav_items",
+            "type": "array"
+        },
+        {
+            "key": "cta_label",
+            "type": "string"
+        },
+        {
+            "key": "cta_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "header-simple",
+        "attributes": {
+            "class": "wpb-block wpb-block--header-simple",
+            "data-wpb-block": "header-simple",
+            "data-wpb-values": "{\"logo\":\"0\",\"site_name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 site_name\",\"nav_items\":[{\"label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 label\",\"link\":\"#snapshot-link\"}],\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<a href=\"/\" class=\"wpb-header-simple__brand\">\n\t\t<img class=\"wpb-header-simple__logo\" alt=\"\" data-slot=\"logo\" data-slot-img-id=\"0\">\n\t\t<span class=\"wpb-header-simple__site-name\" data-slot=\"site_name\">Пример site_name</span>\n\t</a>\n\t<nav class=\"wpb-header-simple__nav\" data-slot-repeat=\"nav_items\" data-gjs-droppable=\"false\"><span class=\"wpb-header-simple__nav-item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<a href=\"#snapshot-link\" class=\"wpb-header-simple__nav-link\" data-slot=\"label\" data-slot-href=\"link\">Пример label</a>\n\t\t</span></nav>\n\t<a href=\"#snapshot-link\" class=\"wpb-header-simple__cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n"
+    }
+}

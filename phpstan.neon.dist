@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+    paths:
+        - includes
+    excludePaths:
+        - includes/*/tests/*
+    bootstrapFiles:
+        - vendor/szepeviktor/phpstan-wordpress/bootstrap.php
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon

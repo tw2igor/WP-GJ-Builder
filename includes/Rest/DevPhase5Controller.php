@@ -1,0 +1,41 @@
+<?php
+
+namespace WPGJBuilder\Rest;
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Дев-only маршрут для ручной проверки Phase 5 (части сайта + безопасность).
+ * Регистрируется только при WP_DEBUG=true. Удалить перед Phase 7.
+ */
+class DevPhase5Controller {
+
+	public static function register_routes() {
+		register_rest_route(
+			'wpgjb/v1',
+			'/dev/phase5',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( self::class, 'run_phase5' ),
+				'permission_callback' => function () {
+					return current_user_can( 'manage_options' );
+				},
+			)
+		);
+	}
+
+	public static function run_phase5( \WP_REST_Request $request ) {
+		require_once WPGJB_PLUGIN_DIR . 'tests/php/Phase5/Phase5Runner.php';
+
+		$results  = \WPGJBuilder\Tests\Phase5\Phase5Runner::run();
+		$all_pass = ! in_array( false, array_column( $results, 'pass' ), true );
+
+		return new \WP_REST_Response(
+			array(
+				'verdict' => $all_pass ? 'PASS' : 'FAIL',
+				'checks'  => $results,
+			),
+			200
+		);
+	}
+}

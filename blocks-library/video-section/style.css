@@ -1,0 +1,30 @@
+.wpb-block--video-section {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-video-section__title {
+	font-size: 2rem;
+	margin: 0 0 0.5rem;
+}
+.wpb-video-section__text {
+	font-size: 1rem;
+	opacity: 0.75;
+	margin: 0 0 2rem;
+}
+.wpb-video-section__play {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+}
+.wpb-video-section__play-icon {
+	font-size: 1.75rem;
+	margin-left: 4px;
+}

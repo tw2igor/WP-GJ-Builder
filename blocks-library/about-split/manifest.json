@@ -1,0 +1,23 @@
+{
+  "id": "about-split",
+  "schema_version": 1,
+  "section_type": "about",
+  "tags": ["landing", "about", "story"],
+  "purpose": "О компании: фото/иллюстрация с одной стороны, заголовок и текст истории — с другой. Классический раздел «О нас» для лендинга.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60, "required": true },
+    { "key": "body", "type": "richtext", "max_length": 600 },
+    {
+      "key": "image",
+      "type": "image",
+      "orientation": "portrait",
+      "min_width": 800
+    },
+    { "key": "cta_label", "type": "string", "max_length": 25 },
+    { "key": "cta_link", "type": "link" }
+  ],
+  "context": { "recommended_after": ["hero"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default", "image-right"]
+}

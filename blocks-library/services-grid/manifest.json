@@ -1,0 +1,28 @@
+{
+  "id": "services-grid",
+  "schema_version": 1,
+  "section_type": "services",
+  "tags": ["landing", "services", "products"],
+  "purpose": "Услуги или товары: сетка карточек с иконкой, названием и описанием — что вы предлагаете клиенту.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    { "key": "subtitle", "type": "string", "max_length": 160 },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 2,
+      "max_items": 6,
+      "item_schema": {
+        "icon": { "type": "icon" },
+        "title": { "type": "string", "max_length": 50 },
+        "text": { "type": "string", "max_length": 150 },
+        "link_label": { "type": "string", "max_length": 25 },
+        "link": { "type": "link" }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["about"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

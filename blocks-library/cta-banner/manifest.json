@@ -1,0 +1,19 @@
+{
+  "id": "cta-banner",
+  "schema_version": 1,
+  "section_type": "cta",
+  "tags": ["landing", "cta", "banner"],
+  "purpose": "Полноширинный акцентный баннер-призыв к действию с двумя кнопками — обычно ставится ближе к концу страницы.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 80, "required": true },
+    { "key": "text", "type": "string", "max_length": 160 },
+    { "key": "primary_label", "type": "string", "max_length": 25 },
+    { "key": "primary_link", "type": "link" },
+    { "key": "secondary_label", "type": "string", "max_length": 25 },
+    { "key": "secondary_link", "type": "link" }
+  ],
+  "context": { "recommended_after": ["pricing", "faq"], "allow_repeat": true, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

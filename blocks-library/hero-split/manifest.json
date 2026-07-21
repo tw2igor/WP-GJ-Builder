@@ -1,0 +1,24 @@
+{
+  "id": "hero-split",
+  "schema_version": 1,
+  "section_type": "hero",
+  "tags": ["landing", "hero", "split"],
+  "purpose": "Первый экран (вариант «сплит»): текст и кнопка слева, крупное изображение справа — классический layout для SaaS/продуктовых лендингов.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 70, "required": true },
+    { "key": "subtitle", "type": "string", "max_length": 180 },
+    { "key": "cta_label", "type": "string", "max_length": 25 },
+    { "key": "cta_link", "type": "link" },
+    {
+      "key": "image",
+      "type": "image",
+      "orientation": "landscape",
+      "min_width": 1000,
+      "first_screen": true
+    }
+  ],
+  "context": { "recommended_after": [], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": ["post.title"], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default", "image-left"]
+}

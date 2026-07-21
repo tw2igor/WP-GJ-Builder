@@ -1,0 +1,26 @@
+{
+  "id": "test-testimonials",
+  "schema_version": 1,
+  "section_type": "testimonials",
+  "tags": ["landing"],
+  "purpose": "Отзывы клиентов: фото, цитата, имя и должность/компания — для доверия к продукту.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 1,
+      "max_items": 6,
+      "item_schema": {
+        "photo": { "type": "image" },
+        "quote": { "type": "richtext", "max_length": 300 },
+        "name": { "type": "string", "max_length": 40 },
+        "role": { "type": "string", "max_length": 60 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["features", "pricing"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "logos-strip",
+  "schema_version": 1,
+  "section_type": "logos",
+  "tags": ["landing", "logos", "clients", "partners", "social-proof"],
+  "purpose": "Ряд логотипов клиентов или партнёров — социальное доказательство «нам доверяют».",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 3,
+      "max_items": 10,
+      "item_schema": {
+        "logo": { "type": "image" },
+        "name": { "type": "string", "max_length": 40 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["hero", "testimonials"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

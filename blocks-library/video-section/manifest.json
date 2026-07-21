@@ -1,0 +1,16 @@
+{
+  "id": "video-section",
+  "schema_version": 1,
+  "section_type": "video",
+  "tags": ["landing", "video"],
+  "purpose": "Видео с заголовком и коротким описанием — презентационный ролик, демо продукта или сообщение от основателя.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    { "key": "text", "type": "string", "max_length": 200 },
+    { "key": "video_link", "type": "link" }
+  ],
+  "context": { "recommended_after": ["hero", "about"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

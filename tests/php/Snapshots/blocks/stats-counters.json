@@ -1,0 +1,23 @@
+{
+    "block_id": "stats-counters",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "stats-counters",
+        "attributes": {
+            "class": "wpb-block wpb-block--stats-counters",
+            "data-wpb-block": "stats-counters",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"number\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 number\",\"label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 label\"},{\"number\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 number\",\"label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 label\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-stats-counters__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-stats-counters__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-stats-counters__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-stats-counters__number\" data-slot=\"number\">Пример number</span>\n\t\t\t<span class=\"wpb-stats-counters__label\" data-slot=\"label\">Пример label</span>\n\t\t</div><div class=\"wpb-stats-counters__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-stats-counters__number\" data-slot=\"number\">Пример number</span>\n\t\t\t<span class=\"wpb-stats-counters__label\" data-slot=\"label\">Пример label</span>\n\t\t</div></div>\n"
+    }
+}

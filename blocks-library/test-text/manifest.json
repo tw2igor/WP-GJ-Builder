@@ -1,0 +1,22 @@
+{
+  "id": "test-text",
+  "schema_version": 1,
+  "section_type": "about",
+  "tags": ["test-fixture"],
+  "purpose": "Тестовый текстовый блок (Phase 3): заголовок и rich-text абзац для проверки richtext-слота.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    { "key": "body", "type": "richtext", "max_length": 600, "required": true }
+  ],
+  "context": {
+    "recommended_after": ["hero"],
+    "allow_repeat": true,
+    "niches": []
+  },
+  "requirements": {
+    "dynamic_tags": [],
+    "assets": { "js": [], "css": [] }
+  },
+  "style_whitelist": ["color", "background-color", "padding", "text-align"],
+  "layout_variants": ["default"]
+}

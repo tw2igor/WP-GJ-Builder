@@ -1,0 +1,27 @@
+{
+  "id": "header-simple",
+  "schema_version": 1,
+  "section_type": "header",
+  "tags": ["header", "navigation"],
+  "purpose": "Простая шапка сайта: логотип/название, горизонтальное меню и кнопка — для использования как «Часть сайта» типа Шапка.",
+  "slots": [
+    { "key": "logo", "type": "image" },
+    { "key": "site_name", "type": "string", "max_length": 40 },
+    {
+      "key": "nav_items",
+      "type": "array",
+      "min_items": 1,
+      "max_items": 7,
+      "item_schema": {
+        "label": { "type": "string", "max_length": 30 },
+        "link": { "type": "link" }
+      }
+    },
+    { "key": "cta_label", "type": "string", "max_length": 25 },
+    { "key": "cta_link", "type": "link" }
+  ],
+  "context": { "recommended_after": [], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": ["site.title", "site.url"], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

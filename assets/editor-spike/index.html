@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>WP-Builder Spike 1 — GrapesJS canvas / Twenty Twenty-Five (block theme) parity</title>
+<link rel="stylesheet" href="./node_modules/grapesjs/dist/css/grapes.min.css" />
+<style>
+  html, body { margin: 0; height: 100%; font-family: -apple-system, Segoe UI, sans-serif; }
+  #top-bar { background: #23282d; color: #fff; padding: 8px 16px; font-size: 13px; display: flex; gap: 16px; align-items: center; }
+  #top-bar strong { color: #7ad7f0; }
+  #gjs { height: calc(100% - 37px); }
+</style>
+</head>
+<body>
+
+<div id="top-bar">
+  <strong>WP-Builder — Spike 1</strong>
+  <span>Canvas theme: Twenty Twenty-Five (block/FSE theme, real theme.json)</span>
+  <span id="token-count" style="margin-left:auto;color:#9ae6a6;"></span>
+</div>
+
+<div id="gjs"></div>
+
+<!-- UMD builds, loaded as plain globals: window.grapesjs, window['@silexlabs/grapesjs-css-variables'] -->
+<script src="./node_modules/grapesjs/dist/grapes.min.js"></script>
+<script src="./node_modules/@silexlabs/grapesjs-css-variables/dist/index.js"></script>
+<script type="module" src="./editor.js"></script>
+
+</body>
+</html>

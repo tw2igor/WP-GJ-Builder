@@ -1,0 +1,35 @@
+{
+    "block_id": "about-split",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "body",
+            "type": "richtext"
+        },
+        {
+            "key": "image",
+            "type": "image"
+        },
+        {
+            "key": "cta_label",
+            "type": "string"
+        },
+        {
+            "key": "cta_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "about-split",
+        "attributes": {
+            "class": "wpb-block wpb-block--about-split",
+            "data-wpb-block": "about-split",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"body\":\"<p>\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 body<\\/p>\",\"image\":\"0\",\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<div class=\"wpb-about-split__media\">\n\t\t<img class=\"wpb-about-split__image\" alt=\"\" data-slot=\"image\" data-slot-img-id=\"0\">\n\t</div>\n\t<div class=\"wpb-about-split__content\">\n\t\t<h2 class=\"wpb-about-split__title\" data-slot=\"title\">Пример title</h2>\n\t\t<div class=\"wpb-about-split__body\" data-slot=\"body\" data-slot-richtext=\"1\"><p>Пример body</p></div>\n\t\t<a href=\"#snapshot-link\" class=\"wpb-about-split__cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n\t</div>\n"
+    }
+}

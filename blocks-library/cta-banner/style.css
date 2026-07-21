@@ -1,0 +1,39 @@
+.wpb-block--cta-banner {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+}
+.wpb-cta-banner__title {
+	font-size: clamp( 1.75rem, 4vw, 2.5rem );
+	margin: 0 0 0.75rem;
+}
+.wpb-cta-banner__text {
+	font-size: 1.05rem;
+	opacity: 0.85;
+	margin: 0 0 2rem;
+}
+.wpb-cta-banner__actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+}
+.wpb-cta-banner__primary {
+	display: inline-block;
+	padding: 0.75rem 1.75rem;
+	border-radius: 999px;
+	background: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+	text-decoration: none;
+	font-weight: 600;
+}
+.wpb-cta-banner__secondary {
+	display: inline-block;
+	padding: 0.75rem 1.75rem;
+	border-radius: 999px;
+	border: 1px solid var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+	font-weight: 600;
+}

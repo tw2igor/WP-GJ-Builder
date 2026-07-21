@@ -1,0 +1,51 @@
+.wpb-block--header-simple {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	padding: 1rem 1.5rem;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-header-simple__brand {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 700;
+}
+.wpb-header-simple__logo {
+	display: block;
+	height: 32px;
+	width: auto;
+}
+.wpb-header-simple__logo:not( [src] ) {
+	display: none;
+}
+.wpb-header-simple__nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1.5rem;
+}
+.wpb-header-simple__nav-item {
+	/* display:contents — обёртка data-slot-item не должна влиять на flex-раскладку соседних пунктов меню. */
+	display: contents;
+}
+.wpb-header-simple__nav-link {
+	color: inherit;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+.wpb-header-simple__cta {
+	display: inline-block;
+	padding: 0.5rem 1.25rem;
+	border-radius: 999px;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.9rem;
+}

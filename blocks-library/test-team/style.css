@@ -1,0 +1,45 @@
+.wpb-block--team {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-team__title {
+	font-size: 2rem;
+	margin: 0 0 2.5rem;
+}
+.wpb-team__grid {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr ) );
+	gap: 1.5rem;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.wpb-team__item {
+	padding: 2rem 1.5rem;
+	border-radius: 12px;
+	background-color: var( --wp--preset--color--base, #fff );
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 24px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-team__item:hover {
+	transform: translateY( -4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 16px 32px rgba( 0, 0, 0, 0.1 );
+}
+.wpb-team__photo {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 0 auto 0.75rem;
+	background-color: var( --wp--preset--color--accent-4, #e0e0e0 );
+}
+.wpb-team__name {
+	font-weight: 600;
+	margin: 0;
+}
+.wpb-team__role {
+	font-size: 0.85rem;
+	opacity: 0.75;
+	margin: 0;
+}

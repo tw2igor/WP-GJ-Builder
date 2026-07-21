@@ -1,0 +1,9 @@
+node_modules/
+vendor/
+assets/build/
+assets/*/build/
+build/
+.DS_Store
+Thumbs.db
+*.log
+dist/

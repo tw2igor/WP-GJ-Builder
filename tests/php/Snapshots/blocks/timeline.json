@@ -1,0 +1,23 @@
+{
+    "block_id": "timeline",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "timeline",
+        "attributes": {
+            "class": "wpb-block wpb-block--timeline",
+            "data-wpb-block": "timeline",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"date\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 date\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"},{\"date\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 date\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-timeline__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-timeline__list\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-timeline__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-timeline__date\" data-slot=\"date\">Пример date</span>\n\t\t\t<h3 class=\"wpb-timeline__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-timeline__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</div><div class=\"wpb-timeline__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-timeline__date\" data-slot=\"date\">Пример date</span>\n\t\t\t<h3 class=\"wpb-timeline__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-timeline__item-text\" data-slot=\"text\">Пример text</p>\n\t\t</div></div>\n"
+    }
+}

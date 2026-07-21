@@ -1,0 +1,27 @@
+{
+    "block_id": "test-cta",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "button_label",
+            "type": "string"
+        },
+        {
+            "key": "button_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "test-cta",
+        "attributes": {
+            "class": "wpb-block wpb-block--cta",
+            "data-wpb-block": "test-cta",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"button_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 button_label\",\"button_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-cta__title\" data-slot=\"title\">Пример title</h2>\n\t<a href=\"#snapshot-link\" class=\"wpb-cta__button\" data-slot=\"button_label\" data-slot-href=\"button_link\">Пример button_label</a>\n"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "block_id": "services-grid",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "subtitle",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "services-grid",
+        "attributes": {
+            "class": "wpb-block wpb-block--services-grid",
+            "data-wpb-block": "services-grid",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"subtitle\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 subtitle\",\"items\":[{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\",\"link_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 link_label\",\"link\":\"#snapshot-link\"},{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\",\"link_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 link_label\",\"link\":\"#snapshot-link\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-services-grid__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-services-grid__subtitle\" data-slot=\"subtitle\">Пример subtitle</p>\n\t<div class=\"wpb-services-grid__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-services-grid__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-services-grid__icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t<h3 class=\"wpb-services-grid__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-services-grid__item-text\" data-slot=\"text\">Пример text</p>\n\t\t\t<a href=\"#snapshot-link\" class=\"wpb-services-grid__item-link\" data-slot=\"link_label\" data-slot-href=\"link\">Пример link_label</a>\n\t\t</div><div class=\"wpb-services-grid__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<span class=\"wpb-services-grid__icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t<h3 class=\"wpb-services-grid__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t<p class=\"wpb-services-grid__item-text\" data-slot=\"text\">Пример text</p>\n\t\t\t<a href=\"#snapshot-link\" class=\"wpb-services-grid__item-link\" data-slot=\"link_label\" data-slot-href=\"link\">Пример link_label</a>\n\t\t</div></div>\n"
+    }
+}

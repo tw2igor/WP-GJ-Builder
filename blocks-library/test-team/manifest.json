@@ -1,0 +1,25 @@
+{
+  "id": "test-team",
+  "schema_version": 1,
+  "section_type": "team",
+  "tags": ["landing"],
+  "purpose": "Команда: фото, имя и должность сотрудника — сетка карточек.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    {
+      "key": "members",
+      "type": "array",
+      "min_items": 1,
+      "max_items": 8,
+      "item_schema": {
+        "photo": { "type": "image" },
+        "name": { "type": "string", "max_length": 40 },
+        "role": { "type": "string", "max_length": 60 }
+      }
+    }
+  ],
+  "context": { "recommended_after": ["about"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

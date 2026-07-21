@@ -1,0 +1,23 @@
+{
+    "block_id": "logos-strip",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "logos-strip",
+        "attributes": {
+            "class": "wpb-block wpb-block--logos-strip",
+            "data-wpb-block": "logos-strip",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"items\":[{\"logo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"},{\"logo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"},{\"logo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-logos-strip__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-logos-strip__grid\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-logos-strip__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-logos-strip__logo\" alt=\"\" data-slot=\"logo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-logos-strip__name\" data-slot=\"name\">Пример name</span>\n\t\t</div><div class=\"wpb-logos-strip__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-logos-strip__logo\" alt=\"\" data-slot=\"logo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-logos-strip__name\" data-slot=\"name\">Пример name</span>\n\t\t</div><div class=\"wpb-logos-strip__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-logos-strip__logo\" alt=\"\" data-slot=\"logo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-logos-strip__name\" data-slot=\"name\">Пример name</span>\n\t\t</div></div>\n"
+    }
+}

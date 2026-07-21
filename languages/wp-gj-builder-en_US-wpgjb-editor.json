@@ -1,0 +1,464 @@
+{
+	"translation-revision-date": "2026-07-20 12:00:00+0000",
+	"generator": "manual",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "en_US",
+				"plural-forms": "nplurals=2; plural=(n != 1);"
+			},
+			"CTA": [
+				"CTA"
+			],
+			"Email-ссылка": [
+				"Email link"
+			],
+			"FAQ": [
+				"FAQ"
+			],
+			"Slug (ЧПУ)": [
+				"Slug (URL)"
+			],
+			"Аккордеон": [
+				"Accordion"
+			],
+			"Блоки": [
+				"Blocks"
+			],
+			"Вариант": [
+				"Variant"
+			],
+			"Вариант 1": [
+				"Option 1"
+			],
+			"Вариант 2": [
+				"Option 2"
+			],
+			"Вариант ответа": [
+				"Answer option"
+			],
+			"Ваши изменения не будут сохранены.": [
+				"Your changes will not be saved."
+			],
+			"Введите сообщение": [
+				"Enter your message"
+			],
+			"Введите текст": [
+				"Enter text"
+			],
+			"Вверх": [
+				"Move up"
+			],
+			"Видео": [
+				"Video"
+			],
+			"Вниз": [
+				"Move down"
+			],
+			"Вопрос или заголовок": [
+				"Question or heading"
+			],
+			"Воспроизведение": [
+				"Play"
+			],
+			"Вставьте HTML-код ниже и нажмите «Импортировать»": [
+				"Paste HTML code below and click “Import”"
+			],
+			"Выбрать изображение": [
+				"Select image"
+			],
+			"Выбрать изображения": [
+				"Select images"
+			],
+			"Выбрать изображения…": [
+				"Select images…"
+			],
+			"Выпадающий список": [
+				"Dropdown"
+			],
+			"Высота (px)": [
+				"Height (px)"
+			],
+			"Галерея": [
+				"Gallery"
+			],
+			"Галерея изображений": [
+				"Image Gallery"
+			],
+			"Галочка": [
+				"Check"
+			],
+			"Дата и время окончания": [
+				"End date and time"
+			],
+			"Длительность анимации (мс)": [
+				"Animation duration (ms)"
+			],
+			"Дней": [
+				"Days"
+			],
+			"Документ повреждён и не может быть открыт для редактирования": [
+				"The document is corrupted and cannot be opened for editing"
+			],
+			"Дом": [
+				"Home"
+			],
+			"Дублировать": [
+				"Duplicate"
+			],
+			"Есть несохранённые изменения…": [
+				"Unsaved changes…"
+			],
+			"Заголовок": [
+				"Heading"
+			],
+			"Заголовок страницы": [
+				"Page title"
+			],
+			"Загрузить их версию (потерять мои правки)": [
+				"Load their version (discard my changes)"
+			],
+			"Заменить изображение": [
+				"Replace image"
+			],
+			"Заменить текущее содержимое страницы данными из файла? Текущие несохранённые изменения будут потеряны.": [
+				"Replace the current page content with the file's data? Any unsaved changes will be lost."
+			],
+			"Звезда": [
+				"Star"
+			],
+			"Изображение": [
+				"Image"
+			],
+			"Иконка": [
+				"Icon"
+			],
+			"Импорт HTML": [
+				"Import HTML"
+			],
+			"Импорт страницы из файла (.json)": [
+				"Import page from file (.json)"
+			],
+			"Импортировать": [
+				"Import"
+			],
+			"Интерактив": [
+				"Interactive"
+			],
+			"Использовать": [
+				"Use"
+			],
+			"Картинка страницы": [
+				"Featured image"
+			],
+			"Клиенты и партнёры": [
+				"Logos"
+			],
+			"Кнопка": [
+				"Button"
+			],
+			"Кнопки и ссылки": [
+				"Buttons & Links"
+			],
+			"Колонки": [
+				"Columns"
+			],
+			"Команда": [
+				"Team"
+			],
+			"Конечное число": [
+				"Target number"
+			],
+			"Контакты": [
+				"Contact"
+			],
+			"Контейнер": [
+				"Container"
+			],
+			"Контурная": [
+				"Outline"
+			],
+			"Крестик": [
+				"Close"
+			],
+			"Кто-то ещё сохранил эту страницу, пока вы редактировали. Ваши изменения ещё не сохранены.": [
+				"Someone else saved this page while you were editing. Your changes have not been saved yet."
+			],
+			"Макет": [
+				"Layout"
+			],
+			"Макет страницы": [
+				"Page template"
+			],
+			"Маркированный список": [
+				"Bulleted list"
+			],
+			"Медиа": [
+				"Media"
+			],
+			"Меню": [
+				"Menu"
+			],
+			"Метка на карте": [
+				"Map pin"
+			],
+			"Минут": [
+				"Minutes"
+			],
+			"Назад": [
+				"Back"
+			],
+			"Настройки": [
+				"Settings"
+			],
+			"Настройки компонента": [
+				"Component Settings"
+			],
+			"Настройки страницы": [
+				"Page Settings"
+			],
+			"Нумерованный список": [
+				"Numbered list"
+			],
+			"О компании": [
+				"About"
+			],
+			"Обложка": [
+				"Hero"
+			],
+			"Обновление применится ко всем затронутым страницам сайта": [
+				"The update will apply to all affected pages on the site"
+			],
+			"Обратный отсчёт": [
+				"Countdown"
+			],
+			"Опубликовано": [
+				"Published"
+			],
+			"Опубликовать": [
+				"Publish"
+			],
+			"Основная": [
+				"Primary"
+			],
+			"Ответ или содержимое аккордеона.": [
+				"Answer or accordion content."
+			],
+			"Отзывы": [
+				"Testimonials"
+			],
+			"Отступ": [
+				"Spacer"
+			],
+			"Ошибка — повторим через 20 сек": [
+				"Error — retrying in 20s"
+			],
+			"Переключатель (radio)": [
+				"Radio button"
+			],
+			"Письмо": [
+				"Email"
+			],
+			"Подвал": [
+				"Footer"
+			],
+			"Поделиться": [
+				"Share"
+			],
+			"Поиск": [
+				"Search"
+			],
+			"Поле: email": [
+				"Field: email"
+			],
+			"Поле: многострочный текст": [
+				"Field: multiline text"
+			],
+			"Поле: текст": [
+				"Field: text"
+			],
+			"Пользователь": [
+				"User"
+			],
+			"Предыдущий слайд": [
+				"Previous slide"
+			],
+			"Преимущества": [
+				"Features"
+			],
+			"Просмотр": [
+				"Preview"
+			],
+			"Публикация…": [
+				"Publishing…"
+			],
+			"Пункт списка": [
+				"List item"
+			],
+			"Разделитель": [
+				"Divider"
+			],
+			"Размер (px)": [
+				"Size (px)"
+			],
+			"Разное": [
+				"Misc"
+			],
+			"Свойства": [
+				"Properties"
+			],
+			"Свойства и настройки": [
+				"Properties & Settings"
+			],
+			"Секунд": [
+				"Seconds"
+			],
+			"Сердце": [
+				"Heart"
+			],
+			"Скрыть": [
+				"Hide"
+			],
+			"Слайд": [
+				"Slide"
+			],
+			"Слайдер изображений": [
+				"Image Slider"
+			],
+			"Следующий слайд": [
+				"Next slide"
+			],
+			"Слои": [
+				"Layers"
+			],
+			"Согласен с условиями": [
+				"I agree to the terms"
+			],
+			"Сохранение…": [
+				"Saving…"
+			],
+			"Сохранено": [
+				"Saved"
+			],
+			"Сохранить": [
+				"Save"
+			],
+			"Сохранить мою версию поверх": [
+				"Save my version over theirs"
+			],
+			"Список (маркированный)": [
+				"List (bulleted)"
+			],
+			"Список (нумерованный)": [
+				"List (numbered)"
+			],
+			"Список с иконками": [
+				"Icon list"
+			],
+			"Список с чекбоксами": [
+				"Checklist"
+			],
+			"Ссылка (URL)": [
+				"Link (URL)"
+			],
+			"Статус": [
+				"Status"
+			],
+			"Страницу сейчас редактирует": [
+				"This page is currently being edited by"
+			],
+			"Страницы": [
+				"Pages"
+			],
+			"Стрелка вправо": [
+				"Arrow right"
+			],
+			"Суффикс (например: %, +)": [
+				"Suffix (e.g. %, +)"
+			],
+			"Счётчик (анимированный)": [
+				"Counter (animated)"
+			],
+			"Текст": [
+				"Text"
+			],
+			"Текст абзаца. Дважды кликните, чтобы отредактировать.": [
+				"Paragraph text. Double-click to edit."
+			],
+			"Текстовая ссылка": [
+				"Text link"
+			],
+			"Телефон": [
+				"Phone"
+			],
+			"Телефон-ссылка": [
+				"Phone link"
+			],
+			"Убрать": [
+				"Remove"
+			],
+			"Удалить": [
+				"Delete"
+			],
+			"Удалить пункт": [
+				"Remove item"
+			],
+			"Услуги/Товары": [
+				"Services/Products"
+			],
+			"Файл не похож на экспортированную страницу конструктора (нет ожидаемой структуры pages).": [
+				"This file doesn't look like an exported builder page (missing the expected \"pages\" structure)."
+			],
+			"Файл повреждён или не является корректным JSON.": [
+				"The file is corrupted or is not valid JSON."
+			],
+			"Формы": [
+				"Forms"
+			],
+			"Цены": [
+				"Pricing"
+			],
+			"Цифры и факты": [
+				"Stats"
+			],
+			"Часов": [
+				"Hours"
+			],
+			"Часть опубликована. Пока ни одна страница не подпадает под её условия показа.": [
+				"Part published. No page currently matches its display conditions yet."
+			],
+			"Чекбокс": [
+				"Checkbox"
+			],
+			"Черновик": [
+				"Draft"
+			],
+			"Шапка": [
+				"Header"
+			],
+			"Экспорт страницы в файл (.json)": [
+				"Export page to file (.json)"
+			],
+			"Элементы": [
+				"Elements"
+			],
+			"Элементы, блоки и страницы": [
+				"Elements, blocks & pages"
+			],
+			"Этапы работы": [
+				"Steps"
+			],
+			"Язык интерфейса редактора": [
+				"Editor interface language"
+			],
+			"добавить карточку": [
+				"add card"
+			],
+			"другой пользователь": [
+				"another user"
+			]
+		}
+	}
+}

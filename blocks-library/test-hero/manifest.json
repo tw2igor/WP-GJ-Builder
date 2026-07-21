@@ -1,0 +1,42 @@
+{
+  "id": "test-hero",
+  "schema_version": 1,
+  "section_type": "hero",
+  "tags": ["landing", "test-fixture"],
+  "purpose": "Тестовая фикстура для проверки ManifestValidator (Phase 1) — первый экран с заголовком, подзаголовком, кнопкой, изображением и списком карточек.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60, "required": true },
+    { "key": "subtitle", "type": "string", "max_length": 160 },
+    { "key": "cta_label", "type": "string", "max_length": 25 },
+    { "key": "cta_link", "type": "link" },
+    {
+      "key": "image",
+      "type": "image",
+      "orientation": "landscape",
+      "min_width": 1200,
+      "first_screen": true
+    },
+    {
+      "key": "items",
+      "type": "array",
+      "min_items": 3,
+      "max_items": 6,
+      "item_schema": {
+        "icon": { "type": "icon" },
+        "title": { "type": "string", "max_length": 40 },
+        "text": { "type": "string", "max_length": 120 }
+      }
+    }
+  ],
+  "context": {
+    "recommended_after": [],
+    "allow_repeat": false,
+    "niches": []
+  },
+  "requirements": {
+    "dynamic_tags": ["post.title"],
+    "assets": { "js": [], "css": [] }
+  },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default", "image-left"]
+}

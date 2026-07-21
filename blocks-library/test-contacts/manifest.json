@@ -1,0 +1,19 @@
+{
+  "id": "test-contacts",
+  "schema_version": 1,
+  "section_type": "contacts",
+  "tags": ["landing"],
+  "purpose": "Контактная информация: адрес, телефон, email и кнопка обратной связи.",
+  "slots": [
+    { "key": "title", "type": "string", "max_length": 60 },
+    { "key": "address", "type": "string", "max_length": 120 },
+    { "key": "phone", "type": "string", "max_length": 30 },
+    { "key": "email", "type": "string", "max_length": 60 },
+    { "key": "cta_label", "type": "string", "max_length": 25 },
+    { "key": "cta_link", "type": "link" }
+  ],
+  "context": { "recommended_after": ["faq"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom", "text-align"],
+  "layout_variants": ["default"]
+}

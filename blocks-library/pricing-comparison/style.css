@@ -1,0 +1,68 @@
+.wpb-block--pricing-comparison {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-pricing-comparison__title {
+	font-size: 2rem;
+	margin: 0 0 2.5rem;
+}
+.wpb-pricing-comparison__grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	gap: 1.5rem;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.wpb-pricing-comparison__plan {
+	flex: 1 1 260px;
+	max-width: 300px;
+	padding: 2rem 1.5rem;
+	border-radius: 12px;
+	border: 1px solid var( --wp--preset--color--accent-4, #e0e0e0 );
+	text-align: left;
+	background-color: var( --wp--preset--color--base, #fff );
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 24px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-pricing-comparison__plan:hover {
+	transform: translateY( -4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 16px 32px rgba( 0, 0, 0, 0.1 );
+}
+/* Последний план в списке — обычно самый полный/рекомендуемый (Tilda/Elementor-паттерн) — визуально выделен без хранения отдельного флага на данных. */
+.wpb-pricing-comparison__plan:last-child {
+	border-color: var( --wp--preset--color--contrast, #111 );
+	border-width: 2px;
+	transform: scale( 1.03 );
+}
+.wpb-pricing-comparison__plan:last-child:hover {
+	transform: scale( 1.03 ) translateY( -4px );
+}
+.wpb-pricing-comparison__plan-name {
+	font-size: 1.1rem;
+	margin: 0 0 0.5rem;
+}
+.wpb-pricing-comparison__plan-price {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0 0 1rem;
+}
+.wpb-pricing-comparison__plan-features {
+	font-size: 0.9rem;
+	opacity: 0.85;
+	margin: 0 0 1.5rem;
+}
+.wpb-pricing-comparison__plan-cta {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 0.65rem 1.5rem;
+	border-radius: 999px;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+	font-weight: 600;
+}

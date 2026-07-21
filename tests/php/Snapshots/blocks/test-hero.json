@@ -1,0 +1,39 @@
+{
+    "block_id": "test-hero",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "subtitle",
+            "type": "string"
+        },
+        {
+            "key": "cta_label",
+            "type": "string"
+        },
+        {
+            "key": "cta_link",
+            "type": "link"
+        },
+        {
+            "key": "image",
+            "type": "image"
+        },
+        {
+            "key": "items",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "test-hero",
+        "attributes": {
+            "class": "wpb-block wpb-block--hero",
+            "data-wpb-block": "test-hero",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"subtitle\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 subtitle\",\"cta_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 cta_label\",\"cta_link\":\"#snapshot-link\",\"image\":\"0\",\"items\":[{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"},{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"},{\"icon\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 icon\",\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\"}]}"
+        },
+        "components": "\n\t<div class=\"wpb-hero__inner\">\n\t\t<h1 class=\"wpb-hero__title\" data-slot=\"title\">Пример title</h1>\n\t\t<p class=\"wpb-hero__subtitle\" data-slot=\"subtitle\">Пример subtitle</p>\n\t\t<a href=\"#snapshot-link\" class=\"wpb-hero__cta\" data-slot=\"cta_label\" data-slot-href=\"cta_link\">Пример cta_label</a>\n\t\t<img class=\"wpb-hero__image\" alt=\"\" data-slot=\"image\" data-slot-img-id=\"0\">\n\t\t<div class=\"wpb-hero__items\" data-slot-repeat=\"items\" data-gjs-droppable=\"false\"><div class=\"wpb-hero__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t\t<span class=\"wpb-hero__item-icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t\t<h3 class=\"wpb-hero__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t\t<p class=\"wpb-hero__item-text\" data-slot=\"text\">Пример text</p>\n\t\t\t</div><div class=\"wpb-hero__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t\t<span class=\"wpb-hero__item-icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t\t<h3 class=\"wpb-hero__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t\t<p class=\"wpb-hero__item-text\" data-slot=\"text\">Пример text</p>\n\t\t\t</div><div class=\"wpb-hero__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t\t<span class=\"wpb-hero__item-icon\" data-slot=\"icon\">Пример icon</span>\n\t\t\t\t<h3 class=\"wpb-hero__item-title\" data-slot=\"title\">Пример title</h3>\n\t\t\t\t<p class=\"wpb-hero__item-text\" data-slot=\"text\">Пример text</p>\n\t\t\t</div></div>\n\t</div>\n"
+    }
+}

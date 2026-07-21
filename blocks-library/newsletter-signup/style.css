@@ -1,0 +1,39 @@
+.wpb-block--newsletter-signup {
+	padding: 3.5rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--accent-4, #f5f5f5 );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-newsletter-signup__title {
+	font-size: 1.75rem;
+	margin: 0 0 0.5rem;
+}
+.wpb-newsletter-signup__text {
+	font-size: 1rem;
+	opacity: 0.75;
+	margin: 0 0 1.75rem;
+}
+.wpb-newsletter-signup__row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.75rem;
+	max-width: 420px;
+	margin: 0 auto;
+}
+.wpb-newsletter-signup__input {
+	flex: 1 1 220px;
+	padding: 0.75rem 1rem;
+	border-radius: 999px;
+	border: 1px solid var( --wp--preset--color--contrast, #111 );
+	font-size: 0.95rem;
+}
+.wpb-newsletter-signup__button {
+	padding: 0.75rem 1.5rem;
+	border-radius: 999px;
+	border: none;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	font-weight: 600;
+	cursor: pointer;
+}

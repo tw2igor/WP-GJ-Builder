@@ -1,0 +1,39 @@
+{
+    "block_id": "cta-banner",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "text",
+            "type": "string"
+        },
+        {
+            "key": "primary_label",
+            "type": "string"
+        },
+        {
+            "key": "primary_link",
+            "type": "link"
+        },
+        {
+            "key": "secondary_label",
+            "type": "string"
+        },
+        {
+            "key": "secondary_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "cta-banner",
+        "attributes": {
+            "class": "wpb-block wpb-block--cta-banner",
+            "data-wpb-block": "cta-banner",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\",\"primary_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 primary_label\",\"primary_link\":\"#snapshot-link\",\"secondary_label\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 secondary_label\",\"secondary_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-cta-banner__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-cta-banner__text\" data-slot=\"text\">Пример text</p>\n\t<div class=\"wpb-cta-banner__actions\">\n\t\t<a href=\"#snapshot-link\" class=\"wpb-cta-banner__primary\" data-slot=\"primary_label\" data-slot-href=\"primary_link\">Пример primary_label</a>\n\t\t<a href=\"#snapshot-link\" class=\"wpb-cta-banner__secondary\" data-slot=\"secondary_label\" data-slot-href=\"secondary_link\">Пример secondary_label</a>\n\t</div>\n"
+    }
+}

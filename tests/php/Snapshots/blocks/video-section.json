@@ -1,0 +1,27 @@
+{
+    "block_id": "video-section",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "text",
+            "type": "string"
+        },
+        {
+            "key": "video_link",
+            "type": "link"
+        }
+    ],
+    "rendered": {
+        "type": "video-section",
+        "attributes": {
+            "class": "wpb-block wpb-block--video-section",
+            "data-wpb-block": "video-section",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"text\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 text\",\"video_link\":\"#snapshot-link\"}"
+        },
+        "components": "\n\t<h2 class=\"wpb-video-section__title\" data-slot=\"title\">Пример title</h2>\n\t<p class=\"wpb-video-section__text\" data-slot=\"text\">Пример text</p>\n\t<a href=\"#snapshot-link\" class=\"wpb-video-section__play\" data-slot-href=\"video_link\" aria-label=\"Смотреть видео\">\n\t\t<span class=\"wpb-video-section__play-icon\" aria-hidden=\"true\">▶</span>\n\t</a>\n"
+    }
+}

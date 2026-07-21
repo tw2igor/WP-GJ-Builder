@@ -1,0 +1,61 @@
+.wpb-block--timeline {
+	padding: 4rem 1.5rem;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-timeline__title {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0 0 2.5rem;
+}
+.wpb-timeline__list {
+	max-width: 640px;
+	margin: 0 auto;
+	border-left: 2px solid var( --wp--preset--color--accent-4, #e0e0e0 );
+	padding-left: 1.5rem;
+}
+.wpb-timeline__item {
+	position: relative;
+	padding: 1.25rem 1.5rem;
+	margin-bottom: 1.5rem;
+	background: var( --wp--preset--color--base, #fff );
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 20px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-timeline__item:hover {
+	transform: translateX( 4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 14px 28px rgba( 0, 0, 0, 0.1 );
+}
+.wpb-timeline__item:last-child {
+	margin-bottom: 0;
+}
+.wpb-timeline__item::before {
+	content: '';
+	position: absolute;
+	left: -2.05rem;
+	top: 1.6rem;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: var( --wp--preset--color--contrast, #111 );
+	box-shadow: 0 0 0 4px var( --wp--preset--color--base, #fff );
+}
+.wpb-timeline__date {
+	display: block;
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	opacity: 0.6;
+	margin-bottom: 0.35rem;
+}
+.wpb-timeline__item-title {
+	font-size: 1.15rem;
+	margin: 0 0 0.35rem;
+}
+.wpb-timeline__item-text {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	margin: 0;
+}

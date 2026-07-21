@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="WP-GJ-Builder">
+	<description>Coding standard for the WP-Builder plugin.</description>
+
+	<file>.</file>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/assets/build/*</exclude-pattern>
+	<exclude-pattern>*/assets/editor-spike/*</exclude-pattern>
+
+	<arg value="sp"/>
+	<arg name="extensions" value="php"/>
+
+	<rule ref="WordPress-Extra"/>
+	<rule ref="WordPress-Docs"/>
+
+	<config name="minimum_supported_wp_version" value="6.5"/>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="wpgjb"/>
+				<element value="WPGJBuilder"/>
+				<element value="wpb_"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

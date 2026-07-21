@@ -1,0 +1,17 @@
+{
+  "id": "testimonial-spotlight",
+  "schema_version": 1,
+  "section_type": "testimonials",
+  "tags": ["landing", "testimonials", "spotlight"],
+  "purpose": "Один крупный отзыв с фото и именем — «звёздный» отзыв самого известного клиента, а не сетка карточек.",
+  "slots": [
+    { "key": "quote", "type": "richtext", "max_length": 400, "required": true },
+    { "key": "name", "type": "string", "max_length": 40 },
+    { "key": "role", "type": "string", "max_length": 80 },
+    { "key": "photo", "type": "image" }
+  ],
+  "context": { "recommended_after": ["pricing"], "allow_repeat": false, "niches": [] },
+  "requirements": { "dynamic_tags": [], "assets": { "js": [], "css": [] } },
+  "style_whitelist": ["background-color", "color", "padding", "padding-top", "padding-bottom"],
+  "layout_variants": ["default"]
+}

@@ -1,0 +1,23 @@
+{
+    "block_id": "team-compact",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "title",
+            "type": "string"
+        },
+        {
+            "key": "members",
+            "type": "array"
+        }
+    ],
+    "rendered": {
+        "type": "team-compact",
+        "attributes": {
+            "class": "wpb-block wpb-block--team-compact",
+            "data-wpb-block": "team-compact",
+            "data-wpb-values": "{\"title\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 title\",\"members\":[{\"photo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"},{\"photo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"},{\"photo\":\"0\",\"name\":\"\\u041f\\u0440\\u0438\\u043c\\u0435\\u0440 name\"}]}"
+        },
+        "components": "\n\t<h2 class=\"wpb-team-compact__title\" data-slot=\"title\">Пример title</h2>\n\t<div class=\"wpb-team-compact__row\" data-slot-repeat=\"members\" data-gjs-droppable=\"false\"><div class=\"wpb-team-compact__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-team-compact__photo\" alt=\"\" data-slot=\"photo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-team-compact__name\" data-slot=\"name\">Пример name</span>\n\t\t</div><div class=\"wpb-team-compact__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-team-compact__photo\" alt=\"\" data-slot=\"photo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-team-compact__name\" data-slot=\"name\">Пример name</span>\n\t\t</div><div class=\"wpb-team-compact__item\" data-slot-item data-gjs-droppable=\"false\">\n\t\t\t<img class=\"wpb-team-compact__photo\" alt=\"\" data-slot=\"photo\" data-slot-img-id=\"0\">\n\t\t\t<span class=\"wpb-team-compact__name\" data-slot=\"name\">Пример name</span>\n\t\t</div></div>\n"
+    }
+}

@@ -1,0 +1,57 @@
+.wpb-block--steps {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-steps__title {
+	font-size: 2rem;
+	margin: 0 0 2.5rem;
+}
+.wpb-steps__list {
+	list-style: none;
+	counter-reset: wpb-step;
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 180px, 1fr ) );
+	gap: 1.5rem;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+.wpb-steps__item {
+	counter-increment: wpb-step;
+	position: relative;
+	padding: 2.75rem 1.5rem 1.5rem;
+	background: var( --wp--preset--color--base, #fff );
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 20px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-steps__item:hover {
+	transform: translateY( -4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 14px 28px rgba( 0, 0, 0, 0.1 );
+}
+.wpb-steps__item::before {
+	content: counter( wpb-step );
+	position: absolute;
+	top: -1rem;
+	left: 50%;
+	transform: translateX( -50% );
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 50%;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	font-weight: 600;
+	box-shadow: 0 2px 6px rgba( 0, 0, 0, 0.15 );
+}
+.wpb-steps__item-title {
+	font-size: 1.05rem;
+	margin: 0 0 0.4rem;
+}
+.wpb-steps__item-text {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	margin: 0;
+}

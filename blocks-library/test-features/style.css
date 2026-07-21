@@ -1,0 +1,46 @@
+.wpb-block--features {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-features__title {
+	font-size: 2rem;
+	margin: 0 0 0.75rem;
+}
+.wpb-features__subtitle {
+	opacity: 0.85;
+	margin: 0 0 2.5rem;
+}
+.wpb-features__grid {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 220px, 1fr ) );
+	gap: 2rem;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.wpb-features__item {
+	padding: 2rem 1.5rem;
+	border-radius: 12px;
+	background-color: var( --wp--preset--color--base, #fff );
+	box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.06 ), 0 8px 24px rgba( 0, 0, 0, 0.06 );
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpb-features__item:hover {
+	transform: translateY( -4px );
+	box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.08 ), 0 16px 32px rgba( 0, 0, 0, 0.1 );
+}
+.wpb-features__icon {
+	display: block;
+	font-size: 1.75rem;
+	margin-bottom: 0.75rem;
+}
+.wpb-features__item-title {
+	font-size: 1.1rem;
+	margin: 0 0 0.4rem;
+}
+.wpb-features__item-text {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	margin: 0;
+}

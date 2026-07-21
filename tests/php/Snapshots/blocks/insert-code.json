@@ -1,0 +1,19 @@
+{
+    "block_id": "insert-code",
+    "schema_version": 1,
+    "slots_signature": [
+        {
+            "key": "code",
+            "type": "raw_html"
+        }
+    ],
+    "rendered": {
+        "type": "insert-code",
+        "attributes": {
+            "class": "wpb-block wpb-block--insert-code",
+            "data-wpb-block": "insert-code",
+            "data-wpb-values": "{\"code\":\"\"}"
+        },
+        "components": "\n\t<div class=\"wpb-insert-code__content\" data-slot=\"code\" data-slot-richtext=\"1\"></div>\n"
+    }
+}

@@ -1,0 +1,63 @@
+.wpb-block--hero {
+	padding: 4rem 1.5rem;
+	text-align: center;
+	background-color: var( --wp--preset--color--base, #fff );
+	color: var( --wp--preset--color--contrast, #111 );
+}
+.wpb-hero__inner {
+	max-width: 720px;
+	margin: 0 auto;
+}
+.wpb-hero__title {
+	font-size: clamp( 2rem, 5vw, 3.5rem );
+	margin: 0 0 1rem;
+}
+.wpb-hero__subtitle {
+	font-size: 1.125rem;
+	margin: 0 0 1.5rem;
+	opacity: 0.85;
+}
+.wpb-hero__cta {
+	display: inline-block;
+	padding: 0.75rem 1.75rem;
+	border-radius: 999px;
+	background: var( --wp--preset--color--contrast, #111 );
+	color: var( --wp--preset--color--base, #fff );
+	text-decoration: none;
+	font-weight: 600;
+}
+.wpb-hero__image {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-top: 2rem;
+}
+.wpb-hero__image:not( [src] ) {
+	display: none;
+}
+.wpb-hero__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 3rem;
+}
+.wpb-hero__item {
+	max-width: 220px;
+}
+.wpb-hero__item-icon {
+	display: block;
+	font-size: 1.75rem;
+	margin-bottom: 0.5rem;
+}
+.wpb-hero__item-title {
+	font-size: 1.05rem;
+	margin: 0 0 0.35rem;
+}
+.wpb-hero__item-text {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	margin: 0;
+}
